@@ -3,35 +3,61 @@
 
 
 
+
+
+ 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR white] Deportes a la carta[/COLOR][COLOR lime][I] Addon Necesario[/I][/COLOR][COLOR yellow]_**_  [/COLOR]</title>
-<link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.deportesalacarta/</jsonrpc>
-<thumbnail></thumbnail>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR white]   DEPORTES  [/COLOR][COLOR yellow] _**_  [/COLOR]</title>
 <fanart></fanart>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR white] Deportes a la carta[/COLOR][COLOR lime][I] Addon Necesario[/I][/COLOR][COLOR yellow]_**_  [/COLOR]</title>
-<link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.deportesalacarta/</jsonrpc>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
-<item>
-<title>[COLOR lime] Avezy (Addon Avezy Necesario)[/COLOR]</title>
-<link>http://Ignoreme</link>
-<jsonrpc>plugin://plugin.video.avezy/</jsonrpc>
-<thumbnail>http://dimitrology.com/wp-content/uploads/2017/08/icon-5.png</thumbnail>
-<fanart>http://www.androidaba.com/wp-content/uploads/2016/12/ar1.jpg</fanart>
-</item>
-
-<item>
-<title>[COLOR lime] LFP[/COLOR]</title>
-<fanart>http://www.gamingesports.com/wp-content/uploads/2016/07/maxresdefault-4.jpg</fanart>
 <thumbnail></thumbnail>
 <link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/Jvw2GNxY</externallink>
-</item> 
+<externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/deportes/INdexdeportes.xml</externallink>
+</item>
+ 
+ 
+ <item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR white] LISTA 1 DEPORTES  [/COLOR][COLOR yellow] _**_  [/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>http://ignoreme</link>
+<externallink></externallink>
+</item>
+ 
+
+
+
+<channel>
+      <name>[COLOR red][[/COLOR][B][COLOR gold]M[/COLOR][COLOR red]][/COLOR][COLOR deepskyblue][B] Listas Deportes [COLOR yellow][I]ESPAÑA[/I][/COLOR][/B][/COLOR]</name>
+  <thumbnail>https://3.bp.blogspot.com/-SXG46FeiKZ0/WqgPaQJ-OaI/AAAAAAAAAxs/K4I3oiI74NQiiSgM_C8zxOJXl0LuUbswACLcBGAs/s1600/deportes.png</thumbnail>
+<fanart>https://github.com/danvalbel/regex/blob/master/Imagen3.jpg?raw=true</fanart>
+<credits>Producto Gratuito y Voluntario para todos los públicos</credits>
+<genre>IPTV</genre>
+<link></link>
+   <externallink>http://oqefuh.blogspot.com.es/p/menu-listas-espana_11.html</externallink>
+</channel>
+  </channels>
+ 
+ <channel>
+      <name>[COLOR red][[/COLOR][B][COLOR gold]M[/COLOR][COLOR red]][/COLOR][COLOR deepskyblue][B] Listas Deportes [COLOR yellow][I]MEXICO[/I][/COLOR][/B][/COLOR]</name>
+  <thumbnail>https://3.bp.blogspot.com/-SXG46FeiKZ0/WqgPaQJ-OaI/AAAAAAAAAxs/K4I3oiI74NQiiSgM_C8zxOJXl0LuUbswACLcBGAs/s1600/deportes.png</thumbnail>
+<fanart>https://github.com/danvalbel/regex/blob/master/Imagen3.jpg?raw=true</fanart>
+<credits>Producto Gratuito y Voluntario para todos los públicos</credits>
+<genre>IPTV</genre>
+<link></link>
+   <externallink>http://oqefuh.blogspot.com.es/p/lista-deportes.html</externallink>
+</channel>
+  </channels>
+  
+   <channel>
+      <name>[COLOR red][[/COLOR][B][COLOR gold]M[/COLOR][COLOR red]][/COLOR][COLOR deepskyblue][B] Listas Deportes [COLOR yellow][I]ARGENTINA[/I][/COLOR][/B][/COLOR]</name>
+  <thumbnail>https://3.bp.blogspot.com/-SXG46FeiKZ0/WqgPaQJ-OaI/AAAAAAAAAxs/K4I3oiI74NQiiSgM_C8zxOJXl0LuUbswACLcBGAs/s1600/deportes.png</thumbnail>
+<fanart>https://github.com/danvalbel/regex/blob/master/Imagen3.jpg?raw=true</fanart>
+<credits>Producto Gratuito y Voluntario para todos los públicos</credits>
+<genre>IPTV</genre>
+<link></link>
+   <externallink>http://oqefuh.blogspot.com.es/p/lista-deportes_11.html</externallink>
+</channel>
+  </channels>
+  
+    <channels>
+  
