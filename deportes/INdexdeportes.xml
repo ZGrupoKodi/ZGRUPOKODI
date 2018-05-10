@@ -1,14 +1,6 @@
 <?xml version="2.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR white] LFP [/COLOR][COLOR yellow]_**_  [/COLOR]</title>
-<fanart>http://www.gamingesports.com/wp-content/uploads/2016/07/maxresdefault-4.jpg</fanart>
-<thumbnail>https://i.imgur.com/jwkXTRL.jpg</thumbnail>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item> 
-
 
 
 
@@ -37,20 +29,23 @@
 <fanart>http://www.androidaba.com/wp-content/uploads/2016/12/ar1.jpg</fanart>
 </item>
 
-<item>
-<title>[COLOR yellow] _**_  [/COLOR][COLOR white] LFP [/COLOR][COLOR yellow] _**_  [/COLOR]</title>
-<fanart>http://www.gamingesports.com/wp-content/uploads/2016/07/maxresdefault-4.jpg</fanart>
-<thumbnail>https://i.imgur.com/jwkXTRL.jpg</thumbnail>
-<link>http://ignoreme</link>
-<externallink>https://pastebin.com/raw/Jvw2GNxY</externallink>
-</item> 
+
 
 
 
 <item>
 <title>[COLOR yellow] _**_  [/COLOR][COLOR white] LISTA 1 DEPORTES  [/COLOR][COLOR yellow] _**_  [/COLOR]</title>
-<fanart></fanart>
-<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/uNQD9yK.jpg</fanart>
+<thumbnail>https://i.imgur.com/uNQD9yK.jpg</thumbnail>
 <link>http://ignoreme</link>
 <externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/deportes/lista1.xml</externallink>
+</item>
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR white] LISTA 2 DEPORTES  [/COLOR][COLOR yellow] _**_  [/COLOR]</title>
+<fanart>https://i.imgur.com/uNQD9yK.jpg</fanart>
+<thumbnail>https://i.imgur.com/uNQD9yK.jpg</thumbnail>
+<link>http://ignoreme</link>
+<externallink></externallink>
 </item>
