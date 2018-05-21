@@ -94,7 +94,7 @@
 </regex>
 <thumbnail>https://s18.postimg.org/df6nt1fm1/disney.png</thumbnail>
 <fanart>https://s18.postimg.org/kvp4paatl/fondocanalestv.jpg</fanart>
-</item
+</item>
 
 <item>
 <title>MOVISTAR SERIES</title>
@@ -154,7 +154,7 @@
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedna.php?file=hollywesp&width=650&height=400</page>
+<page>http://vergol.com/live/hollywood.php</page>
 <referer>http://vercanalestv.com/tv/nacionales/canal-hollywood.html</referer>
 </regex>
 <thumbnail>https://s1.postimg.org/4y6wx0v2lr/HOLLYW.png</thumbnail>
