@@ -2,17 +2,33 @@
 
 
 <item>
+<title>[COLOR goldenrod][COLOR black]JHG •   [/COLOR][B]Eurosport 1[/B][/COLOR]</title>
+<link>$doregex[get-id]|User-Agent=iPad</link>
+<regex>
+<name>get-id</name>
+<expres>[",\'](h.*m3u8.*?)'</expres>
+<page>http://vergol.com/live1/eurosport.php</page>
+<referer>http://verdirectotv.com/tv/deportes2/eurosport.html</referer>
+<agent>iPad</agent>
+</regex>
+<thumbnail>http://www1.movistarplus.es/recorte/m-NEO/canal/ESP</thumbnail>
+</item>
+
+<item>
 <title>CALLE 13</title>
 <link>$doregex[GetPageUrl]|User-Agent=Mozilla/5.0</link>
 <regex>
 <name>GetPageUrl</name>
 <expres>source: '(.*?)'</expres>
-<page>http://livesports.pw/embedna.php?file=calle13&width=650&height=397</page>
-<referer>http://verplusonline.com/ver-calle-13-online-y-gratis-por-internet-las-24h/</referer>
+<page>http://vergol.com/live/calle13.php</page>
+<referer>http://vercanalestv.com/tv/nacionales/calle-13.html</referer>
 </regex>
 <thumbnail>http://www.caratulasylogos.com/sites/default/files/calle13.jpg</thumbnail>
 <fanart></fanart>
 </item>
+
+
+
 
 <item>
 <title>MOVISTAR ACCION</title>
