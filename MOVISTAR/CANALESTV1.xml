@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 
-<item>
-<title>[COLOR goldenrod][COLOR black]JHG •   [/COLOR][B]Eurosport 1[/B][/COLOR]</title>
-<link>$doregex[get-id]|User-Agent=iPad</link>
-<regex>
-<name>get-id</name>
-<expres>[",\'](h.*m3u8.*?)'</expres>
-<page>http://vergol.com/live1/eurosport.php</page>
-<referer>http://verdirectotv.com/tv/deportes2/eurosport.html</referer>
-<agent>iPad</agent>
-</regex>
-<thumbnail>http://www1.movistarplus.es/recorte/m-NEO/canal/ESP</thumbnail>
-</item>
 
 <item>
 <title>CALLE 13</title>
@@ -315,4 +303,155 @@
 </regex>
 <thumbnail>https://s1.postimg.org/4er6ix5jqn/ODISEA.png</thumbnail>
 <fanart>https://s18.postimg.org/kvp4paatl/fondocanalestv.jpg</fanart>
+</item>
+
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] AXN [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/axn.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] AXN WHITE(OFF) [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] AMC [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/amc.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] FOX [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/fox.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail>http://vertelevisor.com/logos/fox.png</thumbnail>
+<fanart>http://vertelevisor.com/logos/fox.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] TNT España [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/tnt.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail>http://vertelevisor.com/logos/tnt.png</thumbnail>
+<fanart>http://vertelevisor.com/logos/tnt.png</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] CALLE 13 (off) [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail>http://vertelevisor.com/logos/calle-13.jpg</thumbnail>
+<fanart>http://vertelevisor.com/logos/calle-13.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] SYFY [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/syfy.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail>http://vertelevisor.com/logos/syfy.png</thumbnail>
+<fanart>http://vertelevisor.com/logos/syfy.png</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] FOX LIVE1 [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/foxlife.php</sportsdevil>
+<referer>http://lacalleochotv.org/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] FOX LIVE [/COLOR]</title>
+<sportsdevil>http://verdirectotv.com/tv/nacionales/foxlife.html</sportsdevil>
+<referer>http://verdirectotv.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR SERIES XTRA [/COLOR]</title>
+<sportsdevil></sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR SERIES [/COLOR]</title>
+<sportsdevil>http://vergol.com/live1/plusseries.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] MOVISTAR COMEDIA [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/comedia.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR ACCION  [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/plusaccion.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR ESTRENOS [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/plusestrenos.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+
+ <item>
+<title>[COLOR yellow]*[COLOR skyblue] •MOVISTAR DCINE [/COLOR]</title>
+<sportsdevil>http://vergol.com/live/dcine.php</sportsdevil>
+<referer>http://www.vertelevisor.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+ <item>
+<title>[COLOR yellow]*[COLOR skyblue] #0 [/COLOR]</title>
+<sportsdevil>http://cinestrenostv.tv/canales/nacionales/plus1.php</sportsdevil>
+<referer>http://cinestrenostv.tv/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]*[COLOR skyblue] COMEDY CENTRAL [/COLOR]</title>
+<sportsdevil>http://telefivegb.com/canales/pelis/paramountcomady</sportsdevil>
+<referer>http://telefivegb.com/</referer>
+<thumbnail></thumbnail>
+<fanart></fanart>
 </item>
