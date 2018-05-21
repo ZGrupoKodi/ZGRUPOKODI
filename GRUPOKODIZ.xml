@@ -3,7 +3,14 @@
 
 
 
-
+ <item>
+<title>[COLOR yellow] * [/COLOR][COLOR white] MOVISTAR [/COLOR]</title>
+<fanart></fanart>
+<thumbnail></thumbnail>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/lista1.xml</externallink>
+</item>
+ 
 
  
 <item>
@@ -16,7 +23,7 @@
  
  
  <item>
-<title>[COLOR yellow] * [/COLOR][COLOR white] LISTA 1 DEPORTES  [/COLOR]</title>
+<title>[COLOR yellow] * [/COLOR][COLOR white]   [/COLOR]</title>
 <fanart></fanart>
 <thumbnail></thumbnail>
 <link>http://ignoreme</link>
@@ -25,7 +32,7 @@
  
   
  <item>
-<title>[COLOR yellow] * [/COLOR][COLOR white] TDT  [/COLOR]</title>
+<title>[COLOR yellow] * [/COLOR][COLOR white]   [/COLOR]</title>
 <fanart></fanart>
 <thumbnail></thumbnail>
 <link>http://ignoreme</link>
@@ -34,14 +41,7 @@
  
  
   
- <item>
-<title>[COLOR yellow] * [/COLOR][COLOR white] MOVISTAR [/COLOR]</title>
-<fanart></fanart>
-<thumbnail></thumbnail>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/lista1.xml</externallink>
-</item>
- 
+
 
 <item> 
 <title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] ZONA [/COLOR][COLOR orange]  [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
@@ -72,14 +72,13 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] 1[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] 1 [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>http://Ignoreme</link>
 <thumbnail></thumbnail>
 <fanart><fanart>
 <externallink>https://pastebin.com/BXgW98HJ</externallink> 
 <item>
 
-https://pastebin.com/BXgW98HJ
 
 
 
@@ -133,22 +132,7 @@ https://pastebin.com/BXgW98HJ
 
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] SERIES(off)  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart><fanart>
-<externallink></externallink> 
-<item>
 
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ****  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail></thumbnail>
-<fanart><fanart>
-<externallink></externallink> 
-<item>
 
 
 
@@ -189,30 +173,9 @@ https://pastebin.com/BXgW98HJ
 
   	
 
-<item><title>[COLOR yellow]_**_  [/COLOR][COLOR yellow] Carnavales cadiz [/COLOR][COLOR yellow]_**_  [/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex><name>makelist</name>
-<listrepeat><![CDATA[
-<title>[makelist.param1]</title>
-<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
-]]></listrepeat>
-<expres>title="(.*?)".*?watch\?v=(.*?)[",&amp;]</expres>
-<page>https://www.youtube.com/channel/UCpOz3CN6mDlxkE7-m5AS1aQ</page>
-</regex>
-<thumbnail>http://tv.ocadizdigital.es/sites/all/themes/ltqq/images/oc-directo-portada.jpg</thumbnail>
-</item>
 
 
 
-  	
-<item> 
-<title>[COLOR yellow]_**_ [/COLOR][COLOR skyblue]ADDON [/COLOR][COLOR orange] ADRYANLIST[/COLOR][COLOR yellow]_**_ [/COLOR]</title>
-<link>http://Ignoreme</link>
-<thumbnail>http://adryanlist.org/adryan/img/adryanlist.jpg</thumbnail>
-<fanart>http://adryanlist.org/adryan/img/adryanlist.jpg</fanart>
-<externallink>http://adryanlist.info</externallink>	
-</item> 
 
 
 
@@ -443,11 +406,5 @@ https://pastebin.com/BXgW98HJ
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/JHGDEPORTES/master/logan.xml</externallink>	
 </item>
 	
-<item>
-<title>[COLOR lime]_**_ [/COLOR][COLOR orange] RS IPTV[/COLOR][COLOR yellow] _**_ [/COLOR]</title>
-<link>http://MENU.me</link>
-<externallink>https://goo.gl/uQgERP</externallink>
-<fanart>http://i.imgur.com/ua2fWAv.jpg</fanart>
-<thumbnail>http://i.imgur.com/ua2fWAv.jpg</thumbnail>
-</item>
+
 
