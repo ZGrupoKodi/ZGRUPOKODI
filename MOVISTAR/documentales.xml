@@ -5,7 +5,7 @@
 
 
 <item>
-<title>[COLOR yellow]                             Canales En Directo[/COLOR]</title>
+<title>[COLOR yellow]    ***** Canales En Directo *****   [/COLOR]</title>
 <link>http://ignoreme</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
@@ -15,11 +15,9 @@
 
 
 <item>
-<title>[COLOR aquamarine]Discovery Channel [/COLOR]</title>
+<title>[COLOR aquamarine]*** Discovery Channel [/COLOR]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverychannel.php</sportsdevil>
 <sportsdevil>http://latelete.tv/discovery-channel-en-directo-gratis-por-internet/</sportsdevil>
-<sportsdevil>http://tvenganchado.com/discovery.php</sportsdevil>
-<sportsdevil>http://09stream.com/ver-discovery-channel-en-espanol-online-en-directo-gratis-24h-por-internet/</sportsdevil>
 <sportsdevil>http://vertutele.com/ver-discovery-channel-online-en-directo-gratis-por-internet-24h/</sportsdevil>
 <sportsdevil>http://verdirectotv.net/ver-discovery-channel-en-directo-y-online-las-24h/</sportsdevil>
 <sportsdevil>http://verdirectotv.com/ver-discovery-channel-en-directo-y-online-las-24h/</sportsdevil>
@@ -30,8 +28,9 @@
 <fanart>http://www.flightofthecentury.com/wp-content/uploads/2013/09/Discovery-Channel-Cropped1.jpg</fanart>
 </item>
 
+
 <item>
-<title>[COLOR aquamarine]Discovery Max [/COLOR]</title>
+<title>[COLOR aquamarine]*** Discovery Max [/COLOR]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/documentales/discoverymax.php</sportsdevil>
 <sportsdevil>http://latelete.tv/discovery-max-en-directo-por-internet/</sportsdevil>
 <sportsdevil>http://tvenganchado.com/discoverymax.php</sportsdevil>
@@ -48,7 +47,7 @@
 
 
 <item>
-<title>[COLOR aquamarine]National Geographic [/COLOR]</title>
+<title>[COLOR aquamarine] *** National Geographic [/COLOR]</title>
 <sportsdevil>http://cinestrenostv.tv/canales/documentales/nationalgeo.php</sportsdevil>
 <sportsdevil>http://latelete.tv/national-geographic-en-directo-en-castellano-por-internet/</sportsdevil>
 <sportsdevil>http://tvenganchado.com/natgeo.php</sportsdevil>
@@ -135,7 +134,7 @@
 <sportsdevil>http://verdirectotv.biz/ver-canal-odisea-gratis-online-y-directo-por-internet/</sportsdevil>
 <sportsdevil>http://www.vercanalestv.com/ver-canal-odisea-gratis-online-y-directo-por-internet/</sportsdevil>
 <referer>http://cinestrenostv.tv/</referer>
-<thumbnail</thumbnail>
+<thumbnail></thumbnail>
 <fanart></fanart>
 </item>
 
