@@ -43,3 +43,48 @@
  
  
 
+<item>
+<title>CINE</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Manuel72/nabo/master/INDICES/index_peliculas.xml</externallink>
+<thumbnail>https://image.ibb.co/fxynFw/Cine.png</thumbnail>
+<fanart>https://s20.postimg.cc/fpn2yvzyl/cine.jpg</fanart>
+<info>[COLOR teal][B]  CINE [/B] [/COLOR]</info>
+</item> 
+
+<item>
+<title>INFANTIL</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Manuel72/nabo/master/INDICES/index_infantil.xml</externallink>
+<thumbnail>https://s20.postimg.cc/tiu2ctmot/icono_cineinfantil.png</thumbnail>
+<fanart>https://s20.postimg.cc/wpolws78d/fondocineinfantil.jpg</fanart>
+<info>[COLOR teal][B]  CINE INFANTIL[/B] [/COLOR]</info>
+</item> 
+
+<item>
+<title>SERIES</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Manuel72/nabo/master/INDICES/chanel_series.xml</externallink>
+<thumbnail>https://s20.postimg.cc/www7gkz65/icono_series.png</thumbnail>
+<fanart>https://s1.postimg.cc/3iiva8qwxb/series.jpg</fanart>
+<info>[COLOR teal][B]  SERIES [/B] [/COLOR]</info>
+</item> 
+
+<item>
+<title>CANALES DE TV</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Manuel72/nabo/master/INDICES/index_tv.xml</externallink>
+<thumbnail>https://image.ibb.co/dDyfkw/listatv_icono.png</thumbnail>
+<fanart>https://image.ibb.co/b22edG/fondo_lista.jpg</fanart>
+<info>[COLOR teal][B]  CANALES DE TV [/B] [/COLOR]</info> 
+</item>
+
+<item>
+<title>DEPORTES</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/Manuel72/nabo/master/INDICES/index_deportes.xml</externallink>
+<thumbnail>https://s20.postimg.cc/mszycgt7h/icono_deportes.png</thumbnail>
+<fanart>https://s20.postimg.cc/lqprtxxjh/fondo_deportes.jpg</fanart>
+<info>[COLOR teal][B]  DEPORTES [/B] [/COLOR]</info>
+</item>
+
