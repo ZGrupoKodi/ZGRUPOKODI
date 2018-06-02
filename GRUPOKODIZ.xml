@@ -5,6 +5,7 @@
 
 
 
+
  <item>
 <title>[COLOR yellow] * [/COLOR][COLOR white] MOVISTAR [/COLOR]</title>
 <fanart></fanart>
@@ -33,6 +34,52 @@
 </item>
  
 	
+<item>
+<title>[COLOR  yellow] _**_  [/COLOR][COLOR red] Z SPORTS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/neymartnt/Jhg5/master/Zsports/zsportindex.xml</externallink>
+<thumbnail>https://i.imgur.com/V0OSbfK.jpg</thumbnail>
+<fanart>https://i.imgur.com/V0OSbfK.jpg</fanart>
+</item>
+		
+	
+
+	
+ 
+<item>
+<title>[COLOR  yellow] ** [/COLOR][COLOR white]** SERIES DANKO ** [/COLOR][COLOR red] NUEVO [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIlNlcmllc2RhbmtvIiwgCiAgICAiY2hhbm5lbCI6ICJzZXJpZXNkYW5rbyIsIAogICAgImNvbnRleHQiOiBbCiAgICAgICAgewogICAgICAgICAgICAiYWN0aW9uIjogImNoYW5uZWxfY29uZmlnIiwgCiAgICAgICAgICAgICJjaGFubmVsIjogInNldHRpbmciLCAKICAgICAgICAgICAgImNvbmZpZyI6ICJzZXJpZXNkYW5rbyIsIAogICAgICAgICAgICAiZnJvbV9hY3Rpb24iOiAibWFpbmxpc3QiLCAKICAgICAgICAgICAgImZyb21fY2hhbm5lbCI6ICJzZXJpZXNkYW5rbyIsIAogICAgICAgICAgICAidGl0bGUiOiAiQ29uZmlndXJhciBjYW5hbCIKICAgICAgICB9CiAgICBdLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6IFsKICAgICAgICAiY2FzdCIsIAogICAgICAgICJsYXQiCiAgICBdLCAKICAgICJ0aHVtYm5haWwiOiAiQzpcXFVzZXJzXFxqdWxlblxcQXBwRGF0YVxcUm9hbWluZ1xcS29kaVxcYWRkb25zXFxwbHVnaW4udmlkZW8uYWxmYVxccmVzb3VyY2VzXFxtZWRpYVxcY2hhbm5lbHNcXHRodW1iXFxzZXJpZXNkYW5rby5wbmciLCAKICAgICJ0aXRsZSI6ICJTZXJpZXNkYW5rbyIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2ZXJzaW9uIjogMSwgCiAgICAidmlld21vZGUiOiAibGlzdCIKfQ%3d%3d/</jsonrpc>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ <item>
+<title>[COLOR red]--> [/COLOR][COLOR deepskyblue]**ADDON CINE[/COLOR][COLOR orange] EL VIDEOCLUB [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.cine/</jsonrpc>
+<thumbnail>http://s3-us-west-2.amazonaws.com/argemundoapp/sites/hurlingham/images/commerces/162/1450183731-2013-03-16_08-24-56_videoclub.jpg</thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR  yellow] ** [/COLOR][COLOR white]** PELICULAS ** [/COLOR][COLOR  yellow] NUEVO [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIlBlbGljdWxhc0dyYXRpcyIsIAogICAgImNoYW5uZWwiOiAicGVsaWN1bGFzZ3JhdGlzIiwgCiAgICAiY29udGV4dCI6IFtdLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6IFsKICAgICAgICAiY2FzdCIsIAogICAgICAgICJsYXQiCiAgICBdLCAKICAgICJ0aHVtYm5haWwiOiAiaHR0cDovL2ltZ3VyLmNvbS9UaEg4Wm1rLnBuZyIsIAogICAgInRpdGxlIjogIlBlbGljdWxhc0dyYXRpcyIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2aWV3bW9kZSI6ICJsaXN0Igp9</jsonrpc>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 
+ 
+<item>
+<title>[COLOR  yellow] ** [/COLOR][COLOR white] **PELICULAS (AÑOS)** [/COLOR][COLOR  yellow] ** [/COLOR]</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogInBlbGlzZm94IiwgCiAgICAiY2hhbm5lbCI6ICJwZWxpc2ZveCIsIAogICAgImNvbnRleHQiOiBbXSwgCiAgICAiZmFuYXJ0IjogIiIsIAogICAgImluZm9MYWJlbHMiOiB7fSwgCiAgICAibGFuZ3VhZ2UiOiBbCiAgICAgICAgImxhdCIKICAgIF0sIAogICAgInRodW1ibmFpbCI6ICJodHRwczovL3MxNC5wb3N0aW1nLm9yZy9jNDNldGMxbHQvcGVsaXNmb3gucG5nIiwgCiAgICAidGl0bGUiOiAicGVsaXNmb3giLCAKICAgICJ0b3RhbEl0ZW1zIjogMCwgCiAgICAidmlld21vZGUiOiAibGlzdCIKfQ%3d%3d</jsonrpc>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</item>
+ 	
 
 <item>
 <title>[COLOR lime] EN REPARACION..... [/COLOR]</title>
@@ -42,3 +89,12 @@
 <externallink>https://raw.githubusercontent.com/neymartnt/neymar/master/REPARACIONZSPORTS.xml</externallink>
 </item>
 
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR red] Z SPORTS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
+<link>http://ignorame</link>
+<externallink>https://raw.githubusercontent.com/neymartnt/Jhg5/master/Zsports/zsportindex.xml</externallink>
+<thumbnail>https://i.imgur.com/V0OSbfK.jpg</thumbnail>
+<fanart>https://i.imgur.com/V0OSbfK.jpg</fanart>
+</item>
+		
+	
