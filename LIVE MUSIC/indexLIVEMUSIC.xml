@@ -318,27 +318,6 @@
 </item>
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
-
-
 
 
  
@@ -364,7 +343,7 @@
  
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Eros ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Eros Ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -435,7 +414,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -459,7 +438,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] India Martinez [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] India Martinez [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -499,7 +478,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Laura Pausini  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] Laura Pausini  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -521,7 +500,7 @@
 
  
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] LA FUGA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] LA FUGA [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -561,7 +540,75 @@
     <fanart>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</fanart>
 </item>
 
+
+
+
 <item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://assets.metrolatam.com/mx/2016/06/13/captura-de-pantalla-2016-06-11-a-las-00-54-52-200x300.jpg</thumbnail>
+    <fanart>http://sevilla.abc.es/media/cultura/2015/12/23/s/carrasco-concierto--620x349.JPG</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Vj1190w58UM&amp;list=PLJaT5gj1oqPRFg3Dd-SV3aQ93EB3kqOxc</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://assets.metrolatam.com/mx/2016/06/13/captura-de-pantalla-2016-06-11-a-las-00-54-52-200x300.jpg</thumbnail>
+    <fanart>http://sevilla.abc.es/media/cultura/2015/12/23/s/carrasco-concierto--620x349.JPG</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MAGO DE OZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://www.elladooscurodelaluna.com/wp-content/uploads/2012/06/fernando-mainer-elladooscurodelaluna.jpg</thumbnail>
+    <fanart>http://www.efeeme.com/wp-content/uploads/Mago-Oz-25-01-10.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=SemvUdZTnQ0&amp;list=PLVXMccjVOpZrxptx1K9P8-m_2NfkwV2Y4</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.elladooscurodelaluna.com/wp-content/uploads/2012/06/fernando-mainer-elladooscurodelaluna.jpg</thumbnail>
+    <fanart>http://www.efeeme.com/wp-content/uploads/Mago-Oz-25-01-10.jpg</fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MECANO  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=csW6VdUr8G8&amplist=PLkzQ_gL7fD9TM_BfUrKDPFTj-_kd8hgE6</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://1.bp.blogspot.com/-Tb0GXiy558k/V7Wta5VRG7I/AAAAAAAABUg/3wK-YqtE4zE0mgT5AYtWeodbytgqnTvZACLcB/s1600/Mecano.png</thumbnail>
+    <fanart>https://ep01.epimg.net/especiales/2016/mecano/images/discos/entre-el-cielo-y-el-suelo/mecano.jpg</fanart>
+</item>
+ 
+ 
+   <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
@@ -581,51 +628,9 @@
     <fanart></fanart>
 </item>
 
-
-  
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
-<fanart>http://porvalencia.com/wp-content/uploads/2012/11/Malu-Firma-Disco-Valencia.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MALU.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANUEL CARRASCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>https://assets.metrolatam.com/mx/2016/06/13/captura-de-pantalla-2016-06-11-a-las-00-54-52-200x300.jpg</thumbnail>
-<fanart>http://sevilla.abc.es/media/cultura/2015/12/23/s/carrasco-concierto--620x349.JPG</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MANUCARRASCO.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MAGO DE OZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>http://www.elladooscurodelaluna.com/wp-content/uploads/2012/06/fernando-mainer-elladooscurodelaluna.jpg</thumbnail>
-<fanart>http://www.efeeme.com/wp-content/uploads/Mago-Oz-25-01-10.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/magodeoz.xml</externallink>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Mecano  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=csW6VdUr8G8&amplist=PLkzQ_gL7fD9TM_BfUrKDPFTj-_kd8hgE6</page>
-             <cookieJar></cookieJar>
-</regex>
  
- <thumbnail>https://1.bp.blogspot.com/-Tb0GXiy558k/V7Wta5VRG7I/AAAAAAAABUg/3wK-YqtE4zE0mgT5AYtWeodbytgqnTvZACLcB/s1600/Mecano.png</thumbnail>
-    <fanart>https://ep01.epimg.net/especiales/2016/mecano/images/discos/entre-el-cielo-y-el-suelo/mecano.jpg</fanart>
-</item>
+ 
+ 
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MEDINA AZAHARA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -636,7 +641,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MELENDI [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MELENDI [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
