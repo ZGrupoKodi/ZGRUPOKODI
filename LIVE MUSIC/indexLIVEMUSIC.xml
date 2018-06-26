@@ -431,25 +431,7 @@
 </item>
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
+
 
 
 <item>
@@ -558,9 +540,51 @@
     <fanart>https://i.ytimg.com/vi/GjZ--hpVxSg/hqdefault.jpg</fanart>
 </item>
 
+
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MALU [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
+    <fanart>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Q9HQGxWZThc&amp;list=PLJQTiQNJMPrNlVE0c06lDFkxg6HSZ-K5h</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
+    <fanart>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</fanart>
+</item>
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
   
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MALU [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <thumbnail>https://www.buenamusica.com/media/fotos/discos/m/malu/malu_guerra-fria.jpg</thumbnail>
 <fanart>http://porvalencia.com/wp-content/uploads/2012/11/Malu-Firma-Disco-Valencia.jpg</fanart>
 <link>http://ignoreme</link>
