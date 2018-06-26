@@ -13,6 +13,28 @@
 </item>
 
 
+
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DE MARCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=YAHbMulUiBQ&amp;list=PL8Thl8wRGTalYnJpFhM0gYL8K8rQ0eld0</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
  <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ALEJANDRO SANZ  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -32,6 +54,9 @@
  <thumbnail>https://static.fnac-static.com/multimedia/Images/ES/NR/47/db/11/1170247/1507-1/tsp20151118124225/Sirope-vivo-DVD.jpg</thumbnail>
     <fanart>https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA02/CONTENIDOS/201505/21/00105110280004____1__600x600.jpg</fanart>
 </item>
+ 
+ 
+ 
  
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ANTONIO OROZCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
