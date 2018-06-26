@@ -146,7 +146,7 @@
  
 
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Chayanne  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Chayanne  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -177,7 +177,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=9xIrBPcIeMA&amp;list=PLkzQ_gL7fD9QpD9aOF1Fq-sTavR_v5mvJ</page>
+            <page>https://www.youtube.com/watch?v=nBUGXD6LfRI&amp;list=PLC49033D3D644078A</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -186,7 +186,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Cristian Castro  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Cristian Castro  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -197,7 +197,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=9EwFfh18Svo&amp;list=PLkzQ_gL7fD9SquoLXEEIBPKnRKLpEMsBf</page>
+            <page>https://www.youtube.com/watch?v=K3V3T_iCVMc&amp;list=PL4E1C989F42F82A29</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -251,11 +251,30 @@
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>http://img177.imagevenue.com/loc442/th_837298462_El_Barrio_La_Voz_De_Mi_Silencio_Frontal_122_442lo.jpg</thumbnail>
-<fanart>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/elbarrio.xml</externallink>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</thumbnail>
+    <fanart>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=KtEli0ZIlKE&amp;list=PLk2fdGebzhRbwUfGM2CJsyZu5CpJKHzEv</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</thumbnail>
+    <fanart>http://4.bp.blogspot.com/-hpxkPdvV1KI/UacIa_Ee9CI/AAAAAAAAEIU/ckKymZRE5OA/s1600/Discografia+el+barrio.jpg</fanart>
 </item>
+
+
+
+
+
+
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ARREBATO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
