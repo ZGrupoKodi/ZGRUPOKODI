@@ -14,6 +14,29 @@
 
 
 
+ 
+<item>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MIX 2018 REGUETON [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Hnj_EMDUfjY&amp;list=PLgFPSBWI2ATvMcpv8z61cipCaA67Edz0E</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
  <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DE MARCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
