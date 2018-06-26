@@ -278,19 +278,68 @@
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL ARREBATO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>http://www.lahiguera.net/musicalia/artistas/el_arrebato/fotos/6051/el_arrebato.jpg</thumbnail>
-<fanart>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/ARREBATO.xml</externallink>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</thumbnail>
+    <fanart>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=FpUa4z2MpKM&amp;list=PLeOrAymWvmKtoypM88-AlzIEubDDLbygp</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</thumbnail>
+    <fanart>http://ocio.laopiniondezamora.es/img_contenido/noticias/2012/03/62402/75110156.jpg</fanart>
 </item>
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL CANTO DEL LOCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>https://elaguijonmusical.files.wordpress.com/2011/02/danimartin21.jpg?w=240</thumbnail>
-<fanart>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/cantodeloco.xml</externallink>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</thumbnail>
+    <fanart>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=wLXZ3bz4Kng&amp;list=PLzdN5EMeN2gcDeI1Tdmi4YBwYnIKA_QiY</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</thumbnail>
+    <fanart>https://aprenderespanolenmadrid.files.wordpress.com/2017/02/dani-martin-06.jpg?w=500&h=248</fanart>
 </item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
 
  
 <item>
@@ -315,7 +364,7 @@
  
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Eros ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Eros ramazzotti  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -326,7 +375,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=CKYOTVJatxk&anp;list=PLkzQ_gL7fD9TKdUOT07_maQmEmavZGoMU</page>
+            <page>https://www.youtube.com/watch?v=R3ihv5ateWw&anp;list=PL2F6FA6BE51AB11E7</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -334,13 +383,29 @@
     <fanart>https://la100.cienradios.com/wp-content/uploads/sites/4/2015/03/Eros-Ramazzotti-003.jpg</fanart>
 </item>
 
+
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ESTOPA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</thumbnail>
-<fanart>http://www.lahiguera.net/musicalia/artistas/estopa/disco/5862/estopa_esto_es_estopa-portada.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/test1.xml</externallink>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</thumbnail>
+    <fanart>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=GuP8zhNayaY&amp;list=PLSL9DB9AUS4P3cwSIpIig3SwqYU14rI7g</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</thumbnail>
+    <fanart>http://www.publispain.com/estopa/imagenes/estopa_-_voces_de_ultrarumba.jpg</fanart>
 </item>
+
+
 
 
  
@@ -367,12 +432,49 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail>https://is1-ssl.mzstatic.com/image/thumb/Music/v4/59/fb/8b/59fb8bea-effd-e775-30f9-3c384ab85709/8429006727650.jpg/200x0w.jpg</thumbnail>
-<fanart>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</fanart>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/HOMBRESG.xml</externallink>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
 </item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] HOMBRES G [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</thumbnail>
+    <fanart>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=1xG7w5i86WM&amp;list=PLA0291DBAF0331F72</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</thumbnail>
+    <fanart>http://revistakuadro.com/wp-content/uploads/2015/06/maxresdefault1.jpg</fanart>
+</item>
+
+
+
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] India Martinez [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -386,7 +488,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=bcj6u041mDA&amp;list=PLkzQ_gL7fD9Q-EXvtwGqCpWdyiEwIC4ta</page>
+            <page>https://www.youtube.com/watch?v=LohWK3M33LA&amp;list=PLTg70_BqgFusp1FzXheTTHUCv68MW4ZYh</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -395,7 +497,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Luis Miguel  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Luis Miguel  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -406,7 +508,7 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5BuE0_lVOAs&amp;list=PLkzQ_gL7fD9RBh_YflaC4T3SNRUwTaKIm</page>
+            <page>https://www.youtube.com/watch?v=oqBE5d7G2cA&amp;list=PLf9If95mNoCOwBY54VWqY-sfjDHcK64YN</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -415,7 +517,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Laura Pausini  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Laura Pausini  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -426,13 +528,14 @@
     <fanart></fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=n1mDNXEKWw4&amp;list=PLkzQ_gL7fD9RlbWyFWupo68v5CRp1fpju</page>
+            <page>https://www.youtube.com/watch?v=0-3h5fGyT5o&amp;list=PLE595C4996A5BAF02</page>
              <cookieJar></cookieJar>
 </regex>
  
  <thumbnail>https://d243u7pon29hni.cloudfront.net/imagesOnDemand/get?imagePath=/images/products/laura-pausini-exitos_l.png&width=1200&height=900&quality=65&imgType=product</thumbnail>
     <fanart>https://i.pinimg.com/736x/0a/d7/f8/0ad7f8d5a89b4a968f8415078d34fd4f--pin-image-latin-music.jpg</fanart>
 </item>
+
 
  
 <item>
