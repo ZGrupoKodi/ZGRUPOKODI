@@ -344,6 +344,26 @@
 </item>
 
 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DURAN DURAN [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/yDm1sMk.jpg</thumbnail>
+    <fanart>https://i.imgur.com/yDm1sMk.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=dDLiVwpv89s&amp;list=PL0O4mu7c5F7mXV3levfkHZ4iAIjBXkze4</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.imgur.com/yDm1sMk.jpg</thumbnail>
+    <fanart>https://i.imgur.com/yDm1sMk.jpg</fanart>
+</item>
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] EL BARRIO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -700,6 +720,13 @@
  <thumbnail>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</thumbnail>
     <fanart>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</fanart>
 </item>
+
+
+
+
+
+
+
 
 
 <item>
@@ -1085,52 +1112,6 @@
 
 
 
-
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MARTA SANCHEZ [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail>https://i.imgur.com/AIwjSE8.jpg</thumbnail>
-    <fanart>https://i.imgur.com/AIwjSE8.jpg</fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=d3fXmjU3DSY&amp;list=PLH6S8OjNLi-KAFRjjpmIIeGQcdXec6yc8</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail>https://i.imgur.com/AIwjSE8.jpg</thumbnail>
-    <fanart>https://i.imgur.com/AIwjSE8.jpg</fanart>
-</item>
-
-
-
-
-
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
 
 
 <item>
