@@ -56,25 +56,28 @@
 
 
 
- <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DE MARCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] REMIX FLAMENCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
+                       <thumbnail>https://i.imgur.com/y24t4uS.jpg</thumbnail>
+    <fanart>https://i.imgur.com/y24t4uS.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=YAHbMulUiBQ&amp;list=PL8Thl8wRGTalYnJpFhM0gYL8K8rQ0eld0</page>
+            <page>https://www.youtube.com/watch?v=7aY2mqbDsXw&amp;list=PLA_I2ay5YcUUKiZshI4cgp9fTOS-Q6B1E</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail></thumbnail>
-    <fanart></fanart>
+ <thumbnail>https://i.imgur.com/y24t4uS.jpg</thumbnail>
+    <fanart>https://i.imgur.com/y24t4uS.jpg</fanart>
 </item>
+
+
+
 
 
  <item>
@@ -232,33 +235,32 @@
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
-    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
+                       <thumbnail>https://i.imgur.com/YUusYt5.jpg</thumbnail>
+    <fanart>https://i.imgur.com/YUusYt5.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
             <page>https://www.youtube.com/watch?v=AS5DOyyoXJI&amp;list=PL08E81BF8023C4996</page>
              <cookieJar></cookieJar>
 </regex>
  
- <thumbnail>http://www.davidbisbalweb.com/images/corazonlatino2.jpg</thumbnail>
-    <fanart>https://www.dicelacancion.com/revista/wp-content/uploads/2014/02/T%C3%BA-y-Yo-David-Bisbal.jpg</fanart>
+ <thumbnail>https://i.imgur.com/YUusYt5.jpg</thumbnail>
+    <fanart>https://i.imgur.com/YUusYt5.jpg</fanart>
 </item>
 
 
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DEMARCO [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+ <item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DE MARCO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
             <listrepeat><![CDATA[
                           <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
                         <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
+                       <thumbnail>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</thumbnail>
+    <fanart>https://i.ytimg.com/vi/Sh4oS_q_diU/hqdefault.jpg</fanart>
             ]]></listrepeat>
             <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=Spz03zZcQMA&amp;list=PLeaj06dBGhfA2hrAqGeBV58de6qn1aSg9</page>
+            <page>https://www.youtube.com/watch?v=YAHbMulUiBQ&amp;list=PL8Thl8wRGTalYnJpFhM0gYL8K8rQ0eld0</page>
              <cookieJar></cookieJar>
 </regex>
  
@@ -937,27 +939,6 @@
  
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
-
-
  
 
  
@@ -1000,112 +981,3 @@
 </item>
 
  
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
-
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
- 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<thumbnail></thumbnail>
-<fanart></fanart>
-<link>http://ignoreme</link>
-<externallink></externallink>
-</item>
