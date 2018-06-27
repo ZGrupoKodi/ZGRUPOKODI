@@ -606,6 +606,25 @@
 </item>
 
 
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANOLO GARCIA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=9zdEXRKJSNY&amp;list=RDEMQED184ycZXih9jflo79KLA</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</thumbnail>
+    <fanart>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</fanart>
+</item>
 
 
 
@@ -629,26 +648,7 @@
     <fanart>https://ep01.epimg.net/especiales/2016/mecano/images/discos/entre-el-cielo-y-el-suelo/mecano.jpg</fanart>
 </item>
  
- 
-   <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail></thumbnail>
-    <fanart></fanart>
-</item>
+
 
  
  
@@ -723,6 +723,55 @@
     <fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Monica_Naranjo_Merida.jpg/1200px-Monica_Naranjo_Merida.jpg</fanart>
 </item>
 
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] NIÑA PASTORI [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/ihojjoJ.jpg</thumbnail>
+    <fanart>https://i.imgur.com/ihojjoJ.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=kIPvHhkpp4U&amp;list=PL_QN0J_UH489wOqgC7UftYYRTLKMSroeJ</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.imgur.com/ihojjoJ.jpg</thumbnail>
+    <fanart>https://i.imgur.com/ihojjoJ.jpg</fanart>
+</item>
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] NIRVANA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=hTWKbfoikeg&amp;list=RDEMDz952MrmDXLULMlo7SEXUw</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</thumbnail>
+    <fanart>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</fanart>
+</item>
+
+
+
+
+
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Pablo Alboran [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -786,7 +835,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] SHAKIRA[/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] SHAKIRA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -868,47 +917,8 @@
 
 
 
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] NIRVANA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=hTWKbfoikeg&amp;list=RDEMDz952MrmDXLULMlo7SEXUw</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</thumbnail>
-    <fanart>https://i.pinimg.com/originals/05/0c/9f/050c9fcaaf65a937bf757ffecb3ebb1a.jpg</fanart>
-</item>
 
 
-
-<item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MANOLO GARCIA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
-<link>$doregex[makelist]</link>
-<regex>
-            <name>makelist</name>
-            <listrepeat><![CDATA[
-                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
-                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
-                       <thumbnail></thumbnail>
-    <fanart></fanart>
-            ]]></listrepeat>
-            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
-            <page>https://www.youtube.com/watch?v=9zdEXRKJSNY&amp;list=RDEMQED184ycZXih9jflo79KLA</page>
-             <cookieJar></cookieJar>
-</regex>
- 
- <thumbnail>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</thumbnail>
-    <fanart>http://www.abc.es/media/cultura/2017/09/27/manolo-garcia-k1KE--620x349@abc.jpg</fanart>
-</item>
 
 
 
@@ -933,6 +943,26 @@
     <fanart></fanart>
 </item>
 
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
 
 
 
