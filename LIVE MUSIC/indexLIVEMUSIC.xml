@@ -143,7 +143,7 @@
 </item> 
 
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Carlos Baute  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CARLOS BAUTE  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -187,7 +187,7 @@
  
 
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Chayanne  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CHAYANNE  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -207,7 +207,7 @@
 </item>
 
  <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Camela [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CAMELA [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -226,8 +226,37 @@
     <fanart>https://i.ytimg.com/vi/uakBV9r5W6I/maxresdefault.jpg</fanart>
 </item>
 
+
+
+
+
+
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Cristian Castro  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] COLDPLAY [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=FM7MFYoylV&amp;list=PLzyYbaYKbahnDKc2MS0TEl7kGD2LIMr2F</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] CRISTIAN CASTRO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -245,6 +274,9 @@
  <thumbnail>https://www.acontecermundial.com/imagenes/arte-y-espectaculos/cristian-castro-pillado-con-un-travesti.png</thumbnail>
     <fanart>http://www.sinembargo.mx/wp-content/uploads/2013/08/27.jpg</fanart>
 </item>
+
+
+
 
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] DAVID BISBAL [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
@@ -519,7 +551,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] Laura Pausini  [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] LAURA PAUSINI [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -681,6 +713,9 @@
 <externallink>https://raw.githubusercontent.com/lokiyotnt69/LIVEMUSIC/master/MEDINAAZAHARA.xml</externallink>
 </item>
 
+
+
+
 <item>
 <title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] MELENDI [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -750,7 +785,7 @@
 
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Monica Naranjo  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MONICA NARANJO  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -970,6 +1005,34 @@
 
 
 
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail></thumbnail>
+    <fanart></fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=5lZ5jwNIbm4&amp;list=PLeC3KXKbXai5nLfjLi3pVVLIeg58ZaqH5</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail></thumbnail>
+    <fanart></fanart>
+</item>
+
+
+
+
+ 
 
 
 
