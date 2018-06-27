@@ -101,6 +101,25 @@
 </item>
  
  
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] ANTONIO FLORES [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/ij58NHC.jpg</thumbnail>
+    <fanart>https://i.imgur.com/ij58NHC.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=t5zWfADKgGk&amp;list=PL25A589B565F2FC69</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.imgur.com/ij58NHC.jpg</thumbnail>
+    <fanart>https://i.imgur.com/ij58NHC.jpg</fanart>
+</item>
  
  
 <item>
@@ -460,7 +479,7 @@
 
 
 <item>
-<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] India Martinez [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
+<title>[COLOR yellow] _**_  [/COLOR][COLOR  skyblue] INDIA MARTINEZ [/COLOR][COLOR yellow]  _**_ [/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -480,7 +499,7 @@
 </item>
 
 <item>
-<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] Luis Miguel  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] LUIS MIGUEL  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
             <name>makelist</name>
@@ -703,6 +722,33 @@
     <fanart>http://loudwire.com/files/2011/12/Metallica.jpg</fanart>
 </item>
 
+
+
+
+
+<item>
+<title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue] MICHAEL JACKSON [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
+<link>$doregex[makelist]</link>
+<regex>
+            <name>makelist</name>
+            <listrepeat><![CDATA[
+                          <title>[COLOR lime] LIVE MUSIC[/COLOR][COLOR white]——[makelist.param1][/COLOR]</title>
+                        <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+                       <thumbnail>https://i.imgur.com/XiqZPZn.jpg</thumbnail>
+    <fanart>https://i.imgur.com/XiqZPZn.jpg</fanart>
+            ]]></listrepeat>
+            <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+            <page>https://www.youtube.com/watch?v=Zi_XLOBDo_Y&amp;list=PLYagrqIg-kgTNL4-c4N6-zeURIPqVkrdK</page>
+             <cookieJar></cookieJar>
+</regex>
+ 
+ <thumbnail>https://i.imgur.com/XiqZPZn.jpg</thumbnail>
+    <fanart>https://i.imgur.com/XiqZPZn.jpg</fanart>
+</item>
+
+
+
+
 <item>
 <title>[COLOR yellow]_**_  [/COLOR][COLOR  skyblue]Monica Naranjo  [/COLOR][COLOR yellow]  _**_[/COLOR]</title>
 <link>$doregex[makelist]</link>
@@ -912,6 +958,13 @@
 
 
 -------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
