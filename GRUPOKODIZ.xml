@@ -36,35 +36,11 @@
 </item>
   
  
- 
- <item>
-<title>[COLOR yellow] * [/COLOR][COLOR white] SERIES  [/COLOR]</title>
-<fanart></fanart>
-<thumbnail></thumbnail>
-<link>http://ignoreme</link>
-<externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/SERIES/BASESERIES.xml</externallink>
-</item>
- 
-	
-<item>
-<title>[COLOR  yellow] _**_  [/COLOR][COLOR red] Z SPORTS [/COLOR][COLOR  yellow]  _**_ [/COLOR]</title>
-<link>http://ignorame</link>
-<externallink>https://raw.githubusercontent.com/neymartnt/Jhg5/master/Zsports/zsportindex.xml</externallink>
-<thumbnail>https://i.imgur.com/V0OSbfK.jpg</thumbnail>
-<fanart>https://i.imgur.com/V0OSbfK.jpg</fanart>
-</item>
+
 		
 	
 
-	
- 
-<item>
-<title>[COLOR  yellow] ** [/COLOR][COLOR white]** SERIES DANKO ** [/COLOR][COLOR red] NUEVO [/COLOR]</title>
-<link>ignorme</link>
-<jsonrpc>plugin://plugin.video.alfa/?ewogICAgImFjdGlvbiI6ICJtYWlubGlzdCIsIAogICAgImNhdGVnb3J5IjogIlNlcmllc2RhbmtvIiwgCiAgICAiY2hhbm5lbCI6ICJzZXJpZXNkYW5rbyIsIAogICAgImNvbnRleHQiOiBbCiAgICAgICAgewogICAgICAgICAgICAiYWN0aW9uIjogImNoYW5uZWxfY29uZmlnIiwgCiAgICAgICAgICAgICJjaGFubmVsIjogInNldHRpbmciLCAKICAgICAgICAgICAgImNvbmZpZyI6ICJzZXJpZXNkYW5rbyIsIAogICAgICAgICAgICAiZnJvbV9hY3Rpb24iOiAibWFpbmxpc3QiLCAKICAgICAgICAgICAgImZyb21fY2hhbm5lbCI6ICJzZXJpZXNkYW5rbyIsIAogICAgICAgICAgICAidGl0bGUiOiAiQ29uZmlndXJhciBjYW5hbCIKICAgICAgICB9CiAgICBdLCAKICAgICJmYW5hcnQiOiAiIiwgCiAgICAiaW5mb0xhYmVscyI6IHt9LCAKICAgICJsYW5ndWFnZSI6IFsKICAgICAgICAiY2FzdCIsIAogICAgICAgICJsYXQiCiAgICBdLCAKICAgICJ0aHVtYm5haWwiOiAiQzpcXFVzZXJzXFxqdWxlblxcQXBwRGF0YVxcUm9hbWluZ1xcS29kaVxcYWRkb25zXFxwbHVnaW4udmlkZW8uYWxmYVxccmVzb3VyY2VzXFxtZWRpYVxcY2hhbm5lbHNcXHRodW1iXFxzZXJpZXNkYW5rby5wbmciLCAKICAgICJ0aXRsZSI6ICJTZXJpZXNkYW5rbyIsIAogICAgInRvdGFsSXRlbXMiOiAwLCAKICAgICJ2ZXJzaW9uIjogMSwgCiAgICAidmlld21vZGUiOiAibGlzdCIKfQ%3d%3d/</jsonrpc>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
+
  
  <item>
 <title>[COLOR red]--> [/COLOR][COLOR deepskyblue]**ADDON CINE[/COLOR][COLOR orange] EL VIDEOCLUB [/COLOR]</title>
@@ -109,4 +85,110 @@
 <fanart>https://i.imgur.com/V0OSbfK.jpg</fanart>
 </item>
 		
-	
+			
+<item>
+<title>[COLOR  yellow]_**_  [/COLOR][COLOR skyblue] LIVE [/COLOR][COLOR orange] MUSIC [/COLOR][COLOR  yellow] _**_[/COLOR]</title>
+<link>http://ignorame</link>
+<thumbnail>https://i.imgur.com/FCKCIUP.jpg</thumbnail>
+<fanart>https://i.imgur.com/FCKCIUP.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/ZGrupoKodi/ZGRUPOKODI/master/LIVE%20MUSIC/indexLIVEMUSIC.xml</externallink>
+</item>	
+
+<item>
+<title>[COLOR lime]•[/COLOR] TV</title>
+<thumbnail>https://is3-ssl.mzstatic.com/image/thumb/Purple117/v4/72/23/c3/7223c36b-c93b-daf9-9563-dee000a53e1c/source/256x256bb.jpg</thumbnail>
+<fanart>http://www.symcober.com/wp-content/uploads/2015/06/TDT.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/tdt.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Movistar 1</title>
+<thumbnail>https://tecmoviles.com/wp-content/uploads/2017/01/movistar-plus-600x416.jpg</thumbnail>
+<fanart>https://www.adslzone.net/app/uploads/2018/04/movistar-plus.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>http://bit.ly/2nr0OzL</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Movistar 2</title>
+<thumbnail>https://tecmoviles.com/wp-content/uploads/2017/01/movistar-plus-600x416.jpg</thumbnail>
+<fanart>https://www.adslzone.net/app/uploads/2018/04/movistar-plus.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://pastebin.com/raw/cNWCrAaz</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] IPTV</title>
+<thumbnail>https://i.imgur.com/6ezAMIJ.jpg</thumbnail>
+<fanart>https://i.imgur.com/CtczDLO.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/IPTV.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Canales internacionales</title>
+<thumbnail>https://previews.123rf.com/images/alhovik/alhovik1209/alhovik120900001/15017439-Banderas-del-mundo-Europa-Foto-de-archivo.jpg</thumbnail>
+<fanart>https://previews.123rf.com/images/alhovik/alhovik1209/alhovik120900001/15017439-Banderas-del-mundo-Europa-Foto-de-archivo.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/Canales%20internacionales.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Deportes</title>
+<thumbnail>http://stat1.infoguiaglobal.com/user-content/argentina/1969480/logo.jpg</thumbnail>
+<fanart>http://thmbcache.com/thumbs/rack/c/be167d9ea953d44e8cbd-25e9f6b52714e6c3d4dbb7e330152014.r68.cf3.rackcdn.com/87754963.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/deportes.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Cine </title>
+<thumbnail>http://www.yipiesrevista.com/wp-content/uploads/2016/09/pel%C3%ADcula.jpg</thumbnail>
+<fanart>https://i.blogs.es/c76165/carteles-cine-terror/original.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/cinenet.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Musica</title>
+<thumbnail>http://playurbano.com/wp-content/uploads/2016/12/Musica.jpg</thumbnail>
+<fanart>https://tuapppara.com/wp-content/uploads/2017/05/downloadmusicfromyoutube.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/index%20musica.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Infantil</title>
+<thumbnail>https://i.imgur.com/KOnMeRf.jpg</thumbnail>
+<fanart>https://i.imgur.com/xTKspv3.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/zonainfantil.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] Programas TV</title>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/programastv.xml</externallink>
+</item>
+
+
+
+
+<item>
+<title>[COLOR lime]•[/COLOR] Documentales</title>
+<thumbnail>http://static.13.cl/7/sites/default/files/13c/programas/field-imagen/documentales.jpg</thumbnail>
+<fanart>https://voiceacademy.com.ve/wp-content/uploads/2017/05/docu.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/brujotv/puertotv/master/cazaypesca.xml</externallink>
+</item>
+
+<item>
+<title>[COLOR lime]•[/COLOR] AEROBIC JUST DANCE</title>
+<thumbnail>http://apk.land/images/just-dance-now-161.png</thumbnail>
+<fanart>http://zonadjjavi.webcindario.com/fanart.jpg</fanart>
+<link>http://ignoreme</link>
+<externallink>https://raw.githubusercontent.com/Darkman2110/DarkmanList/master/menu/aerobic.xml</externallink>
+</item>
